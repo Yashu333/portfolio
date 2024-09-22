@@ -1,4 +1,10 @@
 
-export default function WorkExperience(){
-    
+export default function WorkExperience() {
+
+    return (
+        <div className="container">
+
+        </div>
+
+    )
 }
