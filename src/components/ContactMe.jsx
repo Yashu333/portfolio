@@ -2,7 +2,7 @@ export default function ContactMe() {
 
     return (
         <div>
-            <div className="container my-5">
+            <div className="container-fluid">
                 <div className="p-5 text-center bg-body-tertiary rounded-3">
                     <h1 className="text-body-emphasis">Jumbotron with icon</h1>
                     <p className="col-lg-8 mx-auto fs-5 text-muted">
