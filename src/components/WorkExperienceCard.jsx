@@ -1,10 +1,10 @@
 
-export default function WorkExperienceCard() {
+export default function WorkExperienceCard({companyName, role }) {
     return (
-        <div className="card mx-5" style={{ width: '200px', height: "100px" }}>
+        <div className="card mx-5 col-sm-6 col-md-10">
             <div className="card-body">
-                <h5 className="card-title">Yuze</h5>
-                <p className="card-text">Software Developer</p>
+                <h5 className="card-title">{companyName}</h5>
+                <p className="card-text">{role}</p>
             </div>
         </div>
     );
