@@ -1,8 +1,7 @@
 
-export default function TimelineBar(){
-
-    return(
-        <div className="bg-primary" style={{ width: '20px', height: '100px', margin:' -2px 15px' }}>
+export default function TimelineBar() {
+    return (
+        <div className="bg-primary" style={{ width: '10px', height: '100px', margin: '-30px 0' }}>
         </div>
-    )
+    );
 }
