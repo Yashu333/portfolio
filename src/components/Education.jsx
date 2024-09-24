@@ -11,16 +11,16 @@ export default function Education() {
                     <div className="row g-3">
                         <div className=" col-12 col-md-6"> 
                             <EducationCard
-                                cardHeader={"Masters"}
+                                cardHeader={"Master of Science"}
                                 cardTitle = {"Teesside University"}
-                                cardText={"Got distinction and 80% over all"}
+                                cardText={"Major in Computer Science"}
                             />
                         </div>
                         <div className="col-12 col-md-6"> 
                             <EducationCard
-                                cardHeader={"Bachelors"}
+                                cardHeader={"Bachelor of Technology"}
                                 cardTitle = {"RGUKT RK Valley"}
-                                cardText={"Got distinction and 89.5% over all"}
+                                cardText={"Major in Electronics and Communication Engineering"}
                             />
                         </div>
                     </div>
