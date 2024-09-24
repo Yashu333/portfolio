@@ -1,23 +1,24 @@
 import ProjectCard from "./ProjectCard";
+import { projects } from "@/app/data/projectsData";
 
-export default function Projects(){
-    return(
+export default function Projects() {
+    return (
         <div className="container px-4 py-5" >
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 my-5 text-center" > Projects </h1>
             <div className="row">
 
-               <div className="col-md-6 mb-4">
-                    <ProjectCard />
-                </div>
-                <div className="col-md-6 mb-4">
-                    <ProjectCard />
-                </div>
-                <div className="col-md-6 mb-4">
-                    <ProjectCard />
-                </div>
-                <div className="col-md-6 mb-4">
-                    <ProjectCard />
-                </div>
+                {
+                    projects.map((project) => (
+                        <div className="col-md-6 mb-4" key={project.title}>
+                            <ProjectCard
+                                title={project.title}
+                                description={project.description}
+                                gitHubLink={project.gitHubLink}
+                                livePreviewLink={project.livePreviewLink}
+                            />
+                        </div>
+                    ))
+                }
 
             </div>
 

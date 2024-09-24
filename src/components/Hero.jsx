@@ -16,7 +16,10 @@ export default function Hero(){
           </div>
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3" > Hi, I am Yash </h1>
-            <p className="lead"> Master’s Student at Teesside University, Software Developer Intern at Yuze. Love Coding and resolving challanges, and have a deep passion for Web Development and Data Science. </p>
+            <p className="lead"> 
+              Master’s Student at Teesside University, Software Developer Intern at Yuze. 
+              Love coding and cracking challanges, and have a deep passion for Web Development and Data Science.
+              </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">Resume</button>
               <button type="button" className="btn btn-outline-secondary btn-lg px-4">LinkedIn</button>

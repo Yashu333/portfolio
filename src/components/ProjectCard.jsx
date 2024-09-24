@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ProjectCard() {
+export default function ProjectCard({title, description, gitHubLink, livePreviewLink}) {
     return (
         <div className="card mb-3 w-100 w-md-50">
             <div className="row g-0">
@@ -18,11 +18,11 @@ export default function ProjectCard() {
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 className="card-title">{title}</h5>
+                        <p className="card-text">{description}</p>
                         <div className="d-flex gap-3">
-                            <a href="#" className="btn btn-primary">GitHub</a>
-                            <a href="#" className="btn btn-light">Preview</a>
+                            <a href={gitHubLink} className="btn btn-primary">GitHub</a>
+                            <a href={livePreviewLink} className="btn btn-light">Preview</a>
                         </div>
                     </div>
                 </div>
