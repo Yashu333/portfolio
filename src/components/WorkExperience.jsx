@@ -15,24 +15,27 @@ export default function WorkExperience() {
                             <div className="d-flex flex-row align-items-center mb-3">
                                 <TimelineDot />
                                 <WorkExperienceCard
-                                    companyName={"Yuze"}
+                                    companyName={"Yuze | Darlington, UK"}
                                     role={"Software Developer"}
+                                    experience = {"01/2024 - Present"}
                                 />
                             </div>
                             <TimelineBar />
                             <div className="d-flex flex-row align-items-center mb-3">
                                 <TimelineDot />
                                 <WorkExperienceCard
-                                    companyName={"Tata Consultancy Services"}
                                     role={"Assistant System Engineer"}
+                                    companyName={"TCS | Bangalore, India"}
+                                    experience={"10/2021 - 08/2022"}
                                 />
                             </div>
                             <TimelineBar />
                             <div className="d-flex flex-row align-items-center">
                                 <TimelineDot />
                                 <WorkExperienceCard
-                                    companyName={"Smart Bridge"}
+                                    companyName={"Smart Bridge | India"}
                                     role={"Software Developer Intern"}
+                                    experience={"05/2020 - 06/2020"}
                                 />
                             </div>
                         </div>
