@@ -3,11 +3,9 @@ import { projects } from "@/app/data/projectsData";
 
 export default function Projects() {
     return (
-        <div className="container px-4 py-5" >
+        <div id="Projects" className="container px-4 py-5" >
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 my-5 text-center" > Projects </h1>
             <div className="row">
-
-            {console.log("image path is:", projects[0].imagePath)}
 
                 {
                     projects.map((project) => (

@@ -5,7 +5,7 @@ import WorkExperienceCard from "./WorkExperienceCard";
 export default function WorkExperience() {
     return (
         <>
-            <div className="container">
+            <div id="Experience" className="container">
                 <div className="row">
                     <div className="col-md-4 d-flex align-items-center mb-4 mb-md-0 px-4 py-5">
                     <h1 className="display-6 fw-bold text-body-emphasis lh-1 mb-3">Work Experience</h1>

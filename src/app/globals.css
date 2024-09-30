@@ -41,5 +41,6 @@ a {
   html {
     color-scheme: dark;
     background-color: #2D2424;
+    scroll-behavior: smooth;
   }
 }
