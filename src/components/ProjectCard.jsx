@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function ProjectCard({title, description, gitHubLink, livePreviewLink}) {
+export default function ProjectCard({title, description, gitHubLink, livePreviewLink, imagePath}) {
     return (
         <div className="card mb-3 w-100 w-md-50">
             <div className="row g-0">
@@ -8,7 +8,7 @@ export default function ProjectCard({title, description, gitHubLink, livePreview
                     {/* Wrap Image inside a div with height set */}
                     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
                         <Image
-                            src="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx8aW1hZ2V8ZW58MHx8MHx8fDA%3D"
+                            src={imagePath}
                             layout="fill"
                             objectFit="cover"
                             className="rounded-start"
