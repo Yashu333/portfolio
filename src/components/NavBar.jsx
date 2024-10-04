@@ -1,8 +1,9 @@
+import '../app/globals.css'
 
 export default function NavBar() {
 
     return (
-        <nav className="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg fixed-top custom-navbar" data-bs-theme="dark">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Navbar</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

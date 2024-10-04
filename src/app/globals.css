@@ -6,7 +6,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #E0C097;
   }
 }
 
@@ -44,3 +44,68 @@ a {
     scroll-behavior: smooth;
   }
 }
+
+/* Buttons */
+
+/* Primary Button */
+.custom-primary-button {
+  background-color: #B85C38;
+  color: white; 
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.custom-primary-button:hover {
+  background-color: #5C3D2E; 
+  color: #E0C097;
+}
+
+/* Secondary Button */
+.custom-secondary-button {
+  background-color: transparent; 
+  color: #E0C097;
+  border: 2px solid #E0C097; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-secondary-button:hover {
+  background-color: #2D2424; 
+  color: white; 
+  border-color: white; 
+}
+
+
+/* Work Experience Card */
+.work-experience-card {
+  background-color: #5C3D2E; 
+  color: #E0C097; 
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #E0C097;
+}
+
+
+/* Title Color */
+
+.titleColor{
+  color: #B85C38 !important
+}
+
+/* NavBar */
+.custom-navbar {
+  background-color: #5C3D2E; /* Navbar background color */
+}
+
+.navbar-brand, .nav-link {
+  color: #E0C097 !important; /* Navbar text color */
+}
+
+.nav-link:hover {
+  color: #B85C38 !important; /* Navbar hover color */
+}
+

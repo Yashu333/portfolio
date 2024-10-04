@@ -5,7 +5,7 @@ export default function Education() {
         <div id="Education" className="container px-4 py-5">
             <div className="row flex-lg-row align-items-center g-5 py-5">
                 <div className="col-lg-3">
-                    <h1 className="display-6 fw-bold text-body-emphasis lh-1 mb-3">Education</h1>
+                    <h1 className="display-6 fw-bold text-body-emphasis lh-1 mb-3 titleColor">Education</h1>
                 </div>
                 <div className="col-12  col-lg-9 ps-6">
                     <div className="row g-3">

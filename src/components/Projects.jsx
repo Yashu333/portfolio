@@ -4,7 +4,7 @@ import { projects } from "@/app/data/projectsData";
 export default function Projects() {
     return (
         <div id="Projects" className="container px-4 py-5" >
-            <h1 className="display-5 fw-bold text-body-emphasis lh-1 my-5 text-center" > Projects </h1>
+            <h1 className="titleColor display-5 fw-bold text-body-emphasis lh-1 my-5 text-center " > Projects </h1>
             <div className="row">
 
                 {

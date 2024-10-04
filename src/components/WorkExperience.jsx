@@ -8,7 +8,7 @@ export default function WorkExperience() {
             <div id="Experience" className="container">
                 <div className="row">
                     <div className="col-md-4 d-flex align-items-center mb-4 mb-md-0 px-4 py-5">
-                    <h1 className="display-6 fw-bold text-body-emphasis lh-1 mb-3">Work Experience</h1>
+                    <h1 className="display-6 fw-bold text-body-emphasis lh-1 mb-3 titleColor" >Work Experience</h1>
                     </div>
                     <div className="col-md-8">
                         <div className="d-flex flex-column">
