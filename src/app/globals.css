@@ -45,7 +45,6 @@ a {
   }
 }
 
-/* Buttons */
 
 /* Primary Button */
 .custom-primary-button {
@@ -89,6 +88,10 @@ a {
   border: 1px solid #E0C097;
 }
 
+.work-experience-card:hover {
+  transform: scale(1.02); /* Subtle hover effect */
+}
+
 
 /* Title Color */
 
@@ -98,35 +101,35 @@ a {
 
 /* NavBar */
 .custom-navbar {
-  background-color: #5C3D2E; /* Navbar background color */
+  background-color: #5C3D2E; 
 }
 
 .navbar-brand, .nav-link {
-  color: #E0C097 !important; /* Navbar text color */
+  color: #E0C097 !important; 
 }
 
 .nav-link:hover {
-  color: #B85C38 !important; /* Navbar hover color */
+  color: #B85C38 !important; 
 }
 
 
 /* Project Card Styling */
 /* Project Card */
 .project-card {
-  background-color: #5C3D2E; /* Card background */
-  color: #E0C097; /* Default text color */
+  background-color: #5C3D2E;
+  color: #E0C097;
   border-radius: 10px;
-  border: 1px solid #B85C38; /* Optional border for the card */
+  border: 1px solid #B85C38;
   transition: transform 0.3s ease;
 }
 
 .project-card:hover {
-  transform: scale(1.02); /* Subtle hover effect */
+  transform: scale(1.02);
 }
 
 /* Card Title */
 .project-card .card-title {
-  color: #E0C097; /* Title color */
+  color: #E0C097;
 }
 
 /* Card Text */
@@ -189,6 +192,10 @@ a {
 .education-card .card-text {
   color: #E0C097; /* Consistent text color */
   font-size: 1rem;
+}
+
+.education-card:hover {
+  transform: scale(1.02); /* Subtle hover effect */
 }
 
 
