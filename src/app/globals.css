@@ -49,9 +49,9 @@ a {
 
 /* Primary Button */
 .custom-primary-button {
-  background-color: #B85C38;
-  color: white; 
-  border: none; 
+  background-color: #B85C38; 
+  border-color: #B85C38; 
+  color: #E0C097;
   padding: 10px 20px;
   border-radius: 5px; 
   cursor: pointer;
@@ -59,7 +59,7 @@ a {
 
 .custom-primary-button:hover {
   background-color: #5C3D2E; 
-  color: #E0C097;
+  color: #B85C38;
 }
 
 /* Secondary Button */
@@ -74,8 +74,8 @@ a {
 
 .custom-secondary-button:hover {
   background-color: #2D2424; 
-  color: white; 
-  border-color: white; 
+  color: #B85C38; 
+  border-color: #B85C38; 
 }
 
 
@@ -109,3 +109,117 @@ a {
   color: #B85C38 !important; /* Navbar hover color */
 }
 
+
+/* Project Card Styling */
+/* Project Card */
+.project-card {
+  background-color: #5C3D2E; /* Card background */
+  color: #E0C097; /* Default text color */
+  border-radius: 10px;
+  border: 1px solid #B85C38; /* Optional border for the card */
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02); /* Subtle hover effect */
+}
+
+/* Card Title */
+.project-card .card-title {
+  color: #E0C097; /* Title color */
+}
+
+/* Card Text */
+.project-card .card-text {
+  color: #E0C097;
+}
+
+/* Primary Button (GitHub) */
+.project-card .btn-primary {
+  background-color: #B85C38; 
+  border-color: #B85C38; 
+  color: #E0C097; 
+}
+
+.project-card .btn-primary:hover {
+  background-color: #5C3D2E; 
+  color: #B85C38;
+}
+
+/* Secondary Button (Preview) */
+.project-card .btn-secondary {
+  background-color: #2D2424;
+  border: 1px solid #E0C097; 
+  color: #E0C097;
+}
+
+.project-card .btn-secondary:hover {
+  background-color: #B85C38;
+  color: #E0C097;
+}
+
+
+/* Education Section */
+/* Education Card */
+.education-card {
+  background-color: #5C3D2E; 
+  color: #E0C097;
+  border: 1px solid #B85C38;
+  border-radius: 10px; 
+  padding: 20px;
+}
+
+/* Card Header */
+.education-card .card-header {
+  background-color: #B85C38; /* Header background */
+  color: #E0C097; /* Header text color */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+/* Card Title */
+.education-card .card-title {
+  color: #E0C097;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Card Text */
+.education-card .card-text {
+  color: #E0C097; /* Consistent text color */
+  font-size: 1rem;
+}
+
+
+/* ContactMe Section Background */
+#Contact .bg-contact {
+  background-color: #5C3D2E; /* Card background */
+  color: #E0C097; /* Primary text color */
+  border-radius: 10px;
+  padding: 40px;
+}
+
+/* Contact Me Section */
+/* Title*/
+#Contact .text-title {
+  color: #E0C097;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Paragraph Text */
+#Contact .text-light {
+  color: #E0C097; 
+  font-size: 1.25rem;
+}
+
+/* Social Icon Links */
+#Contact .icon-link i {
+  color: #E0C097; /* Icon color */
+  transition: color 0.3s ease;
+}
+
+#Contact .icon-link:hover i {
+  color: #B85C38;
+}

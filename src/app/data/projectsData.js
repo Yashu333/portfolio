@@ -3,7 +3,7 @@ const projects = [
 
     {
         title: "UniCLubs", 
-        description: " Developed an android application for university students enabling them to create, join, and manage clubs enhancing campus interactions and communication.", 
+        description: " Developed an android application for university students enabling them to create, join, and manage clubs enhancing campus interactions.", 
         gitHubLink: "https://github.com/Yashu333/UniClubs",
         imagePath: "/App_Logo.png",
         livePreviewLink: ""

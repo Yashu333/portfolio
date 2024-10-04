@@ -1,9 +1,9 @@
 
-
+import '../app/globals.css'
 export default function EducationCard({cardHeader,cardTitle, cardText}) {
 
     return (
-        <div className="card">
+        <div className="education-card card">
             <div className="card-header">
                 {cardHeader}
             </div>
