@@ -8,7 +8,7 @@ export default function Hero(){
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <Image
-              src="/My_Sketch.gif"
+              src="https://drive.google.com/uc?export=view&id=1gN9oLiflxMr-q_cLcc2YDJVMqZ91zCRT"
               className="d-block mx-lg-auto img-fluid"
               width={500}
               height={700}
