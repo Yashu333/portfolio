@@ -1,5 +1,6 @@
 import Image from "next/image"
 import '../app/globals.css'
+import { getImagePath } from "@/utils/getImagePath"
 
 export default function Hero(){
 
@@ -8,7 +9,7 @@ export default function Hero(){
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6">
             <Image
-              src="images/MySketch.gif"
+              src={ getImagePath("/images/MySketch.gif") }
               className="d-block mx-lg-auto img-fluid"
               width={500}
               height={700}

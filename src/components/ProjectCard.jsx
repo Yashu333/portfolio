@@ -1,5 +1,6 @@
 import Image from "next/image";
 import '../app/globals.css'
+import { getImagePath } from "@/utils/getImagePath";
 
 export default function ProjectCard({title, description, gitHubLink, livePreviewLink, imagePath}) {
     return (
@@ -9,7 +10,7 @@ export default function ProjectCard({title, description, gitHubLink, livePreview
                     {/* Wrap Image inside a div with height set */}
                     <div style={{ width: '100%', height: '100%', position: 'relative' }}>
                         <Image
-                            src={imagePath}
+                            src={ getImagePath (imagePath) }
                             layout="fill"
                             objectFit="cover"
                             className="rounded-start"
