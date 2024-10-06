@@ -23,7 +23,7 @@ export default function Hero(){
               Love coding and cracking challanges, and have a deep passion for Web Development and Data Science.
               </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" className="btn custom-primary-button btn-lg px-4 me-md-2">Resume</button>
+              {/* <button type="button" className="btn custom-primary-button btn-lg px-4 me-md-2">Resume</button> */}
               <a href="https://www.linkedin.com/in/yaswanth-sai-chinthakayala-648693199/" target="_blank">
                 <button type="button" className="btn custom-secondary-button btn-lg px-4">LinkedIn</button>
               </a>

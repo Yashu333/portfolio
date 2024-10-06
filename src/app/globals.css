@@ -101,7 +101,7 @@ a {
 
 /* NavBar */
 .custom-navbar {
-  background-color: #5C3D2E; 
+  background-color: #B85C38; 
 }
 
 .navbar-brand, .nav-link {
@@ -109,7 +109,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #B85C38 !important; 
+  color: #5C3D2E !important; 
 }
 
 
